@@ -14,13 +14,12 @@ document.addEventListener('DOMContentLoaded', () => {
         square.classList.add(playerOne);
         gameState[index] = playerOne;
 
-        if (currentPlayer === 'X') {
-            currentPlayer = 'O';
+        if (playerOne === 'X') {
+            playerOne = 'O';
           } else {
-            currentPlayer = 'X';
+            playerOne = 'X';
           }
     });
   });
-
   
   });
