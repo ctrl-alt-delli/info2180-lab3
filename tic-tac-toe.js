@@ -1,4 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
-    document.querySelectorAll('#board div').forEach(div => div.classList.add('square'));
+    const board = document.getElementById('board');
+    const squares = board.querySelectorAll('div'); 
+    squares.forEach(square => {
+      square.classList.add('square'); 
+    });
   });
-  
